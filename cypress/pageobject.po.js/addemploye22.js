@@ -11,6 +11,7 @@ class addEmployeePage{
     }
 
     lastNameInput(){
+        // new changes
 
         return 'input[name="lastName"]'
     }
