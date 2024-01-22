@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Test Automation Page</title>
+</head>
+<body bgcolor="Lightskyblue">
+<br />
+<br />
+ 
+    <label> Delete the text and type Random </label>
+<input type="text" id="id1" size="15" value="deleteMe" /> <br />
+<br />
+ 
+    <label> Type any text and press enter in keyboard </label>
+<input type="text" id="id2" size="15" /> <br />
+<br />
+ 
+    <label> Select option4 in dropdown </label>
+<select id="id3">
+<option value="Option1">Option1</option>
+<option value="Option2">Option2</option>
+<option value="Option3">Option3</option>
+<option value="Option4">Option4</option>
+<option value="Option6">Option5</option>
+<option value="Option6">Option6</option>
+</select>
+ 
+    <br />
+<br />
+<label> Unselect the check box1 and select checkbox2 and checkbox3 </label
+><br />
+<input type="checkbox" name="check1" checked /> CheckBox1 <br />
+<input type="checkbox" name="check2" /> CheckBox2 <br />
+<input type="checkbox" name="check3" disabled /> CheckBox3
+<br />
+<br />
+ 
+    
+<p id="assert1" style="color: red">
+      Verify this text contain "Automation testing"
+</p>
+<p style="color: red">Verify below number is less than 10</p>
+<p id="assert2" style="color: red">6</p>
+ 
+    <label>Click on bottommost right corner on below box</label><br />
+<canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+>
+</canvas>
+<br />
+<br />
+<label
+>there is an element below. verify the element is not visible in
+      screen</label
+><br />
+<div id="someid" style="visibility: hidden">Invisible content</div>
+<br />
+<label
+>Verify below element is visible and verify text to assertMyPresence by
+      chainable command </label
+><br />
+<input id="randomid" value="assertMyPresence" />
+<br />
+<label> type some text in second textbox </label
+><input type="text" name="sameid" /><input type="text" name="sameid" />
+</body>
+</html>

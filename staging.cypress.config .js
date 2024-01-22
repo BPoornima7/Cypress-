@@ -4,11 +4,6 @@ const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = defineConfig({
 
   reporter: 'cypress-mochawesome-reporter',
-
-  
-
-
-  
   e2e: {
 
 
