@@ -1,14 +1,14 @@
 class loginPage{
 
 
-    userName(){
+    admin(){
 
-      return '//input[@placeholder="Username"]'
+      return '[placeholder="Username"]'
     }
 
     password(){
 
-      return 'input[placeholder="Password"]'
+      return '[placeholder="Password"]'
     }
 
     loginBtn(){

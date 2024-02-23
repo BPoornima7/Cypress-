@@ -1,0 +1,9 @@
+{
+    "name": "shiva",
+    "email": "abc@gmail.com",
+    "password": "arun2673",
+    "gender": "Male",
+    "prdocuts": ["iphone X","Blackberry","Samsung Note 8"],
+    "prdocuts1": ["Samsung galaxy s7","Iphone 6 32gb"],
+    "deleveryaddress":"xny"
+}

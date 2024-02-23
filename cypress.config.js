@@ -4,7 +4,18 @@ const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = defineConfig({
 
   reporter: 'cypress-mochawesome-reporter',
+
+  
+
+
+  
   e2e: {
+
+   'env':{
+      'baseurl':'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
+      'Admin':'Admin',
+      'Password':'admin123',
+    },
 
 
    "projectId": "xind2m",
@@ -13,12 +24,13 @@ module.exports = defineConfig({
     "videoCompression":0,
 
 
-    "video":true,
-    "retries":{
+    //
+    //"video":true,
+     "retries":{
 
       "openMode":1,
-      "runMode":1
-    },
+       "runMode":1
+     },
    
 setupNodeEvents (on, config) {
 

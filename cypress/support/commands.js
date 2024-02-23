@@ -93,3 +93,10 @@ Cypress.Commands.add('try', (username, password) => {
   cy.url().should('eq', 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')
 
 })
+
+
+import login from '../pageobject.po.js/login.po'
+Cypress.Commands.add('kughukhbuj',()=>{
+  
+})
+

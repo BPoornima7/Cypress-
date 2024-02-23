@@ -16,7 +16,7 @@ const availablefixtures = [
         "context": "nishika"
     },
     {
-        "name": "assignimentemp3",
+        "name": "assigniment/emp3",
         "context": "raju"
 
     },

@@ -31,9 +31,10 @@ describe('verify job functionality', () => {
 
     
     
-    it('verify job title with more than 100 chaacters ', () => {
+    it.only('verify job title with more than 100 chaacters ', () => {
 
       cy.login()
+      cy.screenshot("cypress/forme")
       cy.get('#app > div.oxd-layout > div.oxd-layout-navigation > aside > nav > div.oxd-sidepanel-body > ul > li:nth-child(1) > a').click()
       cy.get('#app > div.oxd-layout > div.oxd-layout-navigation > header > div.oxd-topbar-body > nav > ul > li:nth-child(2) > span > i').click()
       cy.get('#app > div.oxd-layout > div.oxd-layout-navigation > header > div.oxd-topbar-body > nav > ul > li.--active.oxd-topbar-body-nav-tab.--parent > ul > li:nth-child(1) > a').click()
@@ -58,3 +59,4 @@ describe('verify job functionality', () => {
    
 
 })
+
