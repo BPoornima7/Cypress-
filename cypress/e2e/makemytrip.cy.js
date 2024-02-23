@@ -1,7 +1,9 @@
 describe('ghfgf',()=>{
     it('nvhvhk',()=>{
-        cy.visit("https://www.makemytrip.com",{timeout:60000})
-        cy.pause()
+        cy.visit("https://www.makemytrip.com",{ responseTimeout: 120000 })
+
+
+        
         
         
 

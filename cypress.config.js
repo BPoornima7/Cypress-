@@ -24,7 +24,7 @@ module.exports = defineConfig({
     "videoCompression":0,
 
 
-    //
+    'pageLoadTimeout':10000,
     //"video":true,
      "retries":{
 
