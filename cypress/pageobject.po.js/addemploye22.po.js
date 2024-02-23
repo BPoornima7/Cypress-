@@ -26,6 +26,8 @@ class addEmployeePage{
         return 'Successfully Saved'
     }
 
+ 
+
 
     createEmployee(firstname, lastname){
 

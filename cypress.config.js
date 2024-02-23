@@ -11,6 +11,12 @@ module.exports = defineConfig({
   
   e2e: {
 
+   'env':{
+      'baseurl':'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
+      'Admin':'Admin',
+      'Password':'admin123',
+    },
+
 
    "projectId": "xind2m",
    
@@ -19,11 +25,11 @@ module.exports = defineConfig({
 
 
     "video":true,
-    "retries":{
+    //  "retries":{
 
-      "openMode":1,
-      "runMode":1
-    },
+    //   "openMode":1,
+    //    "runMode":1
+    //  },
    
 setupNodeEvents (on, config) {
 

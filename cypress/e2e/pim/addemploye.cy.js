@@ -1,6 +1,6 @@
 import login from "../../pageobject.po.js/login.po"
 import dashboard from "../../pageobject.po.js/dashbord.po"
-import employeedata from "../../pageobject.po.js/addemploye22"
+import employeedata from "../../pageobject.po.js/addemploye22.po"
 import logindata from "../../fixtures/logindata.json"
 
 
