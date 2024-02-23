@@ -24,12 +24,12 @@ module.exports = defineConfig({
     "videoCompression":0,
 
 
-    "video":true,
-    //  "retries":{
+    //"video":true,
+     "retries":{
 
-    //   "openMode":1,
-    //    "runMode":1
-    //  },
+      "openMode":1,
+       "runMode":1
+     },
    
 setupNodeEvents (on, config) {
 
